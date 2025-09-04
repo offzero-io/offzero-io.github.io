@@ -1,10 +1,13 @@
 ---
 ---
 
-@import "variables";
-@import "base";
-@import "layout";
-@import "syntax-highlighting";
+@use "sass:math";
+@use "sass:color";
+
+@use "variables";
+@use "base";
+@use "layout";
+@use "syntax-highlighting";
 
 // Custom styles for Off-Zero Financial
 .hero {
