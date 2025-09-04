@@ -1,0 +1,66 @@
+# Site settings
+title: "Off-Zero Financial"
+description: "Modern commerce services and Bitcoin treasury strategy consulting"
+url: "https://offzero-io.github.io"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SEO and social
+author:
+  name: "Off-Zero Financial"
+  email: "contact@offzero.io"
+
+# Navigation
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about/"
+  - title: "Services"
+    url: "/services/"
+  - title: "Contact"
+    url: "/contact/"
+
+# Social links
+social:
+  - name: "GitHub"
+    url: "https://github.com/offzero-io"
+  - name: "LinkedIn"
+    url: "https://linkedin.com/company/offzero-financial"
+
+# Collections
+collections:
+  services:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "services"
+    values:
+      layout: "service"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

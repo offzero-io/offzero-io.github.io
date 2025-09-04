@@ -36,6 +36,19 @@ Off-Zero Financial is a leading services agency specializing in:
 
 Ready to transform your commerce operations or explore Bitcoin treasury strategies? Get in touch with our team of experts.
 
+## Website
+
+This is a Jekyll-powered GitHub Pages website. Visit us at: https://offzero-io.github.io
+
+### Local Development
+
+To run this site locally:
+
+1. Install Jekyll: `gem install jekyll bundler`
+2. Install dependencies: `bundle install`
+3. Run the site: `bundle exec jekyll serve`
+4. Visit: http://localhost:4000
+
 ---
 
-*This website is built with GitHub Pages and showcases our commitment to modern, efficient solutions.*
+*This website is built with Jekyll and GitHub Pages, showcasing our commitment to modern, efficient solutions.*
