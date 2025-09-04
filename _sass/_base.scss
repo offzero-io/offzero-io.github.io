@@ -1,3 +1,5 @@
+@use "sass:math";
+
 /**
  * Reset some basic elements
  */
@@ -91,7 +93,7 @@ a {
     text-decoration: none;
 
     &:visited {
-        color: color.adjust($brand-color, $lightness: -15%);
+        color: darken($brand-color, 15%);
     }
 
     &:hover {

@@ -1,3 +1,5 @@
+@use "sass:color";
+
 /**
  * Variables
  */
@@ -43,7 +45,7 @@ $on-laptop:        800px !default;
 }
 
 // Import partials.
-@use
+@import
   "base",
   "layout",
   "syntax-highlighting"
