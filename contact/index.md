@@ -14,8 +14,8 @@ Whether you're looking to optimize your e-commerce operations or explore Bitcoin
 
 ### Contact Information
 
-- **Email**: [contact@offzero.io](mailto:contact@offzero.io)
-- **Website**: [offzero-io.github.io](https://offzero-io.github.io)
+- **Email**: [{{ site.author.email }}](mailto:{{ site.author.email }})
+- **Website**: [{{ site.url }}]({{ site.url }})
 
 ### Services We Offer
 
