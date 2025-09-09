@@ -38,7 +38,7 @@ Ready to transform your commerce operations or explore Bitcoin treasury strategi
 
 ## Website
 
-This is a Jekyll-powered GitHub Pages website. Visit us at: https://offzero-io.github.io
+This is a Jekyll-powered GitHub Pages website. Visit us at: https://www.offzero.io
 
 ### Local Development
 
